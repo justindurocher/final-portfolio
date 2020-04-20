@@ -12,6 +12,8 @@ class aboutMe extends Component {
 
                 <div className="myName">About Me:</div>
 
+                <hr />
+
                 <div className="myself">
 
                     <img className="profile" src="./images/profilePic.JPEG" alt="Profile Pic"/>

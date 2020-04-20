@@ -6,6 +6,8 @@ import NavBar from './components/navBar';
 
 import About from './components/about';
 
+import Contact from 'components/contact';
+
 function App() {
   return (
     <div className="app">

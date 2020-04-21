@@ -2,7 +2,7 @@ import { React } from "react";
 
 import "./css/about.css";
 
-class aboutMe extends Component {
+class about extends Component {
 
     render() {
 
@@ -33,4 +33,4 @@ class aboutMe extends Component {
 
 }
 
-export default aboutMe;
+export default about;

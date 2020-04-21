@@ -2,7 +2,7 @@ import { React } from "react";
 
 import "./css/contact.css";
 
-class Contact extends Component {
+class contact extends Component {
 
     render(){
 
@@ -40,4 +40,4 @@ class Contact extends Component {
 
 }
 
-export default Contact;
+export default contact;

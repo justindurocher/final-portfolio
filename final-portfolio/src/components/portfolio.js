@@ -4,7 +4,7 @@ import * as Bootstrap from 'react-bootstrap';
 
 import './css/portfolio.css';
 
-class Portfolio extends Component{
+class portfolio extends Component{
 
     render() {
 
@@ -31,3 +31,5 @@ class Portfolio extends Component{
     }
 
 }
+
+export default portfolio;

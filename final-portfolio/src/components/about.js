@@ -1,6 +1,6 @@
-import { React } from "react";
+import React, {Component} from "react";
 
-import "./css/about.css";
+import Profile from './images/profilePic.JPEG';
 
 class about extends Component {
 
@@ -16,7 +16,7 @@ class about extends Component {
 
                 <div className="myself">
 
-                    <img className="profile" src="./images/profilePic.JPEG" alt="Profile Pic"/>
+                    <img className="profile" src={Profile} height="240px" width="250px" alt="Profile Pic"/>
                     <br></br>
                     Hello, my name is Justin Durocher and I am 20 years old and live in Hartford CT. I currently am employed as a overnight supervisor at UPS, and a valet attendant at the Marriot Hotel in Downtown Hartford.
                     <br></br>

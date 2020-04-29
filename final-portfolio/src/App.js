@@ -2,31 +2,17 @@ import React from 'react';
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import NavBar from './components/navBar';
+import NavBar from './components/navBar.js';
 
-import Contact from 'components/contact';
+import Contact from './components/contact.js';
 
-import Portfolio from 'components/portfolio';
+import Portfolio from './components/portfolio.js';
 
-import About from 'components/about';
-
-import DocumentMeta from 'react-document-meta';
-
-const meta = {
-
-    title: 'My Portfolio',
-    name: 'viewport',
-    content : {
-      width: 'device-width'
-    }
-
-}
+import About from './components/about.js'
 
 function App() {
   return (
     <div className="app">
-
-      <DocumentMeta {...meta}/>
 
       <BrowserRouter>
 

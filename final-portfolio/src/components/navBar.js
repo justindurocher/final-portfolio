@@ -10,7 +10,7 @@ class navbar extends Component {
     render(){
         return(
 
-            <Bootstrap.Navbar bg="info" variant="dark">
+            <Bootstrap.Navbar bg="info" variant="dark" sticky="top">
             <Bootstrap.Navbar.Brand href="#home">Justin Durocher</Bootstrap.Navbar.Brand>
             <Bootstrap.Nav className="mr-auto">
               <Bootstrap.Nav.Link href="/">About Me</Bootstrap.Nav.Link>

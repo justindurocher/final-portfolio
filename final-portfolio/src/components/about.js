@@ -18,7 +18,7 @@ class about extends Component {
 
                 <Row>
 
-                    <Col sm="12" className="aboutMe">
+                    <Col sm="12" className="banner">
                     
                         About Me
                     

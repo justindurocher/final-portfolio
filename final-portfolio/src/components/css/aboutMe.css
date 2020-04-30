@@ -1,15 +1,16 @@
 .aboutMePage{
     background-color: whitesmoke;
 }
-.aboutMe{
+.banner{
     background-color: gold;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 35px;
     font-family: 'Modak', cursive;
     text-align: center;
+    border-radius: 3px;
 }
-.aboutMe:hover{
+.banner:hover{
     letter-spacing: 10px;
     transition-duration: 1s;
 }

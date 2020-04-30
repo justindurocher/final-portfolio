@@ -1,36 +1,72 @@
 import React, {Component} from "react";
 
+import {Container,Row,Col} from 'react-bootstrap';
+
 class contact extends Component {
 
     render(){
 
         return(
-            
+
             <div className="contactForm">
 
-                <div className="contactMe">Contact Me:</div>
+                <Container>
 
-                <br></br>
+                    <Row>
 
-                <div className="list">
+                        <Col sm="12" className="banner">
+                    
+                            Contact Me
+                    
+                        </Col>
 
-                    GitHub : <a href="https://github.com/justindurocher"> justindurocher</a>
+                    </Row>
 
-                    <br></br>
+                    <div className="back">
 
-                    LinkedIn : <a href="https://www.linkedin.com/in/justin-durocher-a34946197/">justin-durocher</a>
+                        Text goes here
 
-                    <br></br>
+                    </div>
 
-                    Email : justduro@gmail.com
+                    <Row>
 
+                        <Col className="footer">
+                    
+                            Copyright©
 
-                    <br></br>
+                        </Col>
 
-                    Phone : 1-(860)-(808)-(4596)
+                    </Row>
 
-                </div>
+                </Container>
+
             </div>
+            
+            // <div className="contactForm">
+
+            //     <div className="contactMe">Contact Me:</div>
+
+            //     <br></br>
+
+            //     <div className="list">
+
+            //         GitHub : <a href="https://github.com/justindurocher"> justindurocher</a>
+
+            //         <br></br>
+
+            //         LinkedIn : <a href="https://www.linkedin.com/in/justin-durocher-a34946197/">justin-durocher</a>
+
+            //         <br></br>
+
+            //         Email : justduro@gmail.com
+
+
+            //         <br></br>
+
+            //         Phone : 1-(860)-(808)-(4596)
+
+            //     </div>
+            // </div>
 
         )
 

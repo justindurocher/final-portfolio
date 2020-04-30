@@ -1,6 +1,14 @@
 import  React, {Component} from "react";
 
-import {Container,Row,Col} from 'react-bootstrap';
+import {Container,Row,Col,Card,Button} from 'react-bootstrap';
+
+import videogame from './images/Capture3.PNG';
+
+import NBA from './images/game.PNG';
+
+import Living from './images/living.png'
+
+import './css/portfolio.css'
 
 class portfolio extends Component{
 
@@ -16,15 +24,100 @@ class portfolio extends Component{
 
                         <Col sm="12" className="banner">
                         
-                            Portfolio
+                            Projects
                         
                         </Col>
 
                     </Row>
 
-                    <div className="back">
+                    <div className="back2">
 
-                        Text goes here
+                        <Container>
+
+                            <Row>
+
+                                <Col sm="4">
+
+                                <Card style={{ width: '18rem' }} className="card">
+
+                                    <Card.Img variant="top" src={videogame} height="160px" width="180px"/>
+
+                                    <Card.Body>
+
+                                    <Card.Title className="font">Gaming News Search App</Card.Title>
+
+                                    <Card.Text className="text">
+
+                                            In this application, the user is able to search any video game ever created
+
+                                                to see the most recent news atricles on that particular game.
+
+                                    </Card.Text>
+
+                                        <Button variant="info" href="https://justindurocher.github.io/Video-Game-Search-App">View</Button>
+
+                                    </Card.Body>
+
+                                </Card>
+
+
+                                    </Col>
+
+                                <Col sm="4">
+
+                                <Card style={{ width: '18rem' }} className="card">
+
+                                    <Card.Img variant="top" src={NBA} height="160px" width="180px"/>
+
+                                    <Card.Body>
+
+                                    <Card.Title className="font">NBA Javascript Game</Card.Title>
+
+                                    <Card.Text className="text">
+
+                                            In this application, the user is able choose from all well known NBA Players
+
+                                            to play in a computer basketball shooting contest. Highest Score Wins!
+
+                                    </Card.Text>
+
+                                        <Button variant="info" href="https://justindurocher.github.io/NBA-Game/public/">View</Button>
+
+                                    </Card.Body>
+
+                                </Card>
+           
+                                </Col>
+
+                                <Col sm="4">
+
+                                <Card style={{ width: '18rem' }} className="card">
+
+                                    <Card.Img variant="top" src={Living} height="160px" width="180px" />
+
+                                    <Card.Body>
+
+                                    <Card.Title className="font">Living.js</Card.Title>
+
+                                    <Card.Text className="text">
+
+                                            In this application, the user is able to compare their current cities living wages, population,
+
+                                            and much more. The application also shows prior search history.
+
+                                    </Card.Text>
+
+                                        <Button variant="info">View</Button>
+
+                                    </Card.Body>
+
+                                </Card>
+            
+                                </Col>
+
+                            </Row>
+
+                        </Container>
 
                     </div>
 
@@ -40,22 +133,7 @@ class portfolio extends Component{
 
                 </Container>
 
-            </div>
-
-                
-            // <Card style={{ width: '18rem' }}>
-            // <Card.Img variant="top" src="holder.js/100px180" />
-            // <Card.Body>
-            // <Card.Title>Video-game News Search App</Card.Title>
-            // <Card.Text>
-            //         In this application, the user is able to search any video game ever created
-            //             to see the most recent news atricles on that particular game.
-            // </Card.Text>
-            //     <Button variant="primary">View</Button>
-            // </Card.Body>
-            // </Card>
-
-       
+            </div>   
 
         )
 

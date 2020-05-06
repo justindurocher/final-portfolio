@@ -2,6 +2,10 @@ import React, {Component} from "react";
 
 import {Container,Row,Col} from 'react-bootstrap';
 
+import './css/contact.css';
+
+import Profile from './images/profilePic.JPEG';
+
 class contact extends Component {
 
     render(){
@@ -22,13 +26,21 @@ class contact extends Component {
 
                     </Row>
 
-                    <div className="back">
-
-                        Text goes here
-
-                    </div>
-
+                <div className="back">
+    
                     <Row>
+
+                         <Col sm="12">
+                        
+                            <img src={Profile} alt="Profile" height="240px" width="250px" className="contactPic"/>
+
+                        </Col>
+
+                     </Row>
+
+                </div>
+
+                <Row>
 
                         <Col className="footer">
                     
